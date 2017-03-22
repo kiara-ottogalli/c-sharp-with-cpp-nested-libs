@@ -3,9 +3,9 @@
 
 #include "stdafx.h"
 #include "LibraryTwo.h"
-
+#include "LibraryOne.h"
 
 LIBRARYTWO_API int LibraryTwo::getNumberTwo()
 {
-	return LibraryOne::getNumberOne() + 2;
+	return LibraryOne::getNumberOne() + 1;
 }
